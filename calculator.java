@@ -4,7 +4,7 @@ class Main {
   public static void main(String[] args) {
 
     char operator;
-    double number3, number2, result;
+    double number3, number2, answer;
 
     // create an object of Scanner class
     Scanner input = new Scanner(System.in);
@@ -24,14 +24,14 @@ class Main {
 
       // performs addition between numbers
       case '+':
-        result = number3 + number2;
-        System.out.println(number3 + " + " + number2 + " = " + result);
+        answer = number3 + number2;
+        System.out.println(number3 + " + " + number2 + " = " + answer);
         break;
 
       // performs subtraction between numbers
       case '-':
-        result = number3 - number2;
-        System.out.println(number3 + " - " + number2 + " = " + result);
+        answer = number3 - number2;
+        System.out.println(number3 + " - " + number2 + " = " + answer);
         break;
 
     
